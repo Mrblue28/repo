@@ -47,9 +47,10 @@ body {
 }
 @media (max-width: 600px) {
     .scene{
-     gap: 100px;
-      flex-direction: column;
-      flex: 1 0 1 ;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 
     }
    
