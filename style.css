@@ -11,8 +11,10 @@ body {
   display: flex;
   justify-content: space-between;
   perspective: 800px;
+  padding-top: 100px ;
+  text-align: justify;
 }
-.scene .card {
+.scene .card { background: #D41367; 
   position: relative;
   width: 240px;
   height: 300px;
