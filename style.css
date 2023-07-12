@@ -47,7 +47,7 @@ body {
 }
 @media (max-width: 600px) {
     .scene{
-     height: 100vh;
+     gap: 100px;
       flex-direction: column;
       flex: 1 0 1 ;
 
