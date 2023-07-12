@@ -45,3 +45,10 @@ body {
 .scene .card .card__face--back {
   transform: rotateY(0.5turn);
 }
+@media (max-width: 600px) {
+    .scene{
+      flex-direction: column;
+      flex: 50%;
+    }
+   
+  }
