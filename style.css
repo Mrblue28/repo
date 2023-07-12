@@ -6,7 +6,6 @@ body {
  margin-top: 0%;
   background: black;
 }
-
 .scene {
   width: 1000px;
   display: flex;
@@ -16,7 +15,6 @@ body {
 .scene .card {
   position: relative;
   width: 240px;
-  max-height: 250px;
   height: 300px;
   color: white;
   cursor: pointer;
@@ -47,7 +45,12 @@ body {
   transform: rotateY(0.5turn);
 }
 @media (max-width: 768px) {
- 
+  .xx{
+    margin-top: 100px;
+  }
+  .vv{
+    margin-top: 800px;
+  }
   body {
     display: flex;
 
@@ -64,12 +67,12 @@ body {
     justify-content: space-between;
     perspective: 800px;
     min-height: 0;
-    gap: 10px;
+    gap: 20px;
   }
   .scene .card {
     position: relative;
-    width: 140px;
-    height: 200px;
+    width: 240px;
+    height: 300px;
     color: white;
     cursor: pointer;
     transition: 1s ease-in-out;
@@ -91,17 +94,12 @@ body {
     -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
   }
   .scene .card .card__face img {
-    width: 140px;
-    height: 200px;
+    width: 240px;
+    height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .scene .card .card__face--back {
     transform: rotateY(0.5turn);
   }
-  p{
-    font-size: x-small;
-  }
 }
-   
-  }
