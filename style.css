@@ -16,6 +16,7 @@ body {
 .scene .card {
   position: relative;
   width: 240px;
+  max-height: 250px;
   height: 300px;
   color: white;
   cursor: pointer;
