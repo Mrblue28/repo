@@ -5,6 +5,8 @@ body {
   height: 100vh;
  margin-top: 0%;
   background: black;
+ 
+  
 }
 .scene {
   width: 1000px;
@@ -13,8 +15,9 @@ body {
   perspective: 800px;
   padding-top: 100px ;
   text-align: justify;
+
 }
-.scene .card { background: #D41367; 
+.scene .card {   background: #D41367;  
   position: relative;
   width: 240px;
   height: 300px;
@@ -35,7 +38,7 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: 1s ease-in-out;
-  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #D41367);
 }
 .scene .card .card__face img {
   width: 240px;
@@ -52,7 +55,7 @@ body {
   }
   .vv{
     margin-top: 800px;
-    padding-top: 300px;
+    padding-top: 500px;
   }
   body {
     display: flex;
@@ -94,8 +97,7 @@ body {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     transition: 1s ease-in-out;
-    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #d41367 );
-                                        
+    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #D41367);
   }
   .scene .card .card__face img {
     width: 240px;
