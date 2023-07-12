@@ -47,9 +47,9 @@ body {
 }
 @media (max-width: 600px) {
     .scene{
-      margin-bottom : 50px;
+      margin-bottom : 100px;
       flex-direction: column;
-      flex: 50%;
+
     }
    
   }
